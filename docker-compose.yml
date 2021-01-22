@@ -1,0 +1,29 @@
+version: "2"
+services:
+  web:
+    image: ramvignesh/mibrary
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    network_mode: host
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - mongodb
+    env_file:
+      - ./mibrary.env
+    entrypoint:
+      - /bin/sh
+      - -c
+      - 'npm run start'
+  mongodb:
+    image: mvertes/alpine-mongo
+    network_mode: host
+    restart: always
+    volumes:
+     - $HOME/mongo/data:/data/db
+    expose:
+      - 27017
+    ports:
+      - "27017:27017"

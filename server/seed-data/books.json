@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "publisher": "Harper Collins",
+    "isbn": "9789739618199",
+    "language": "English"
+  },
+  {
+    "id": "2",
+    "name": "The Alchemist",
+    "author": "Paulo Coelho",
+    "publisher": "Harper Collins",
+    "isbn": "9789739618198",
+    "language": "English"
+  },
+  {
+    "id": "3",
+    "name": "Matilda",
+    "author": "Roll Dahl",
+    "publisher": "Vikatan",
+    "illustrator": "Bharathi Baskar",
+    "isbn": "9789739618144",
+    "language": "Tamizh"
+  },
+  {
+    "id": "4",
+    "name": "Vennira Iravugal",
+    "author": "Fyodor Doestoevsky",
+    "illustrator": "Padmajaa Narayanan",
+    "publisher": "Ethir",
+    "isbn": "97897395668199",
+    "language": "Tamizh"
+  },
+  {
+    "id": "5",
+    "name": "Aaishaa",
+    "author": "Era. Natarajan",
+    "publisher": "Bharathi Puthagalayam",
+    "isbn": "97897395668999",
+    "language": "Tamizh"
+  }
+]

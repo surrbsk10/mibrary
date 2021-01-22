@@ -1,0 +1,44 @@
+{
+  "name": "mibrary",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server/bin/www.js",
+    "test": "echo \"error: no test specified\" && exit 1"
+  },
+  "author": "Ramvignesh Pasupathy",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^1.2.0",
+    "@material-ui/icons": "^1.1.0",
+    "body-parser": "^1.18.1",
+    "chai": "^4.1.2",
+    "express": "^4.15.4",
+    "figlet": "^1.2.0",
+    "log4js": "^1.1.1",
+    "material-ui-search-bar": "^0.4.2",
+    "material-ui-search-bar-enhanced": "^0.5.1",
+    "mocha": "^5.2.0",
+    "mongoose": "^4.11.11",
+    "path": "^0.12.7",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-flexbox-grid": "^1.1.5",
+    "react-router-dom": "^4.2.2",
+    "sinon": "^5.1.0",
+    "sinon-mongoose": "^2.1.1",
+    "superagent": "^3.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^0.11.2",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.19.1"
+  }
+}

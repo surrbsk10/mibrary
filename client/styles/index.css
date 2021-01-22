@@ -1,0 +1,11 @@
+html, body, #root, #root > div:first-child {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  height: 100%;
+  text-align: center;
+  background-image: url('../assets/images/bg.jpg');
+  background-size:  100% 100%;
+}
